@@ -59,11 +59,11 @@ please open a github issue to request access to a restricted corpus.
 
 ## Access outside UW CSE
 
-Accessing the corpora requires a CSE unix account. UW members can receive UW
-CSE guest accounts by having a UW CSE faculty or staff sponsor them at
-https://sponsor.cs.washington.edu/. Despite the name "sponsor," this is
-absolutely _free_. Guest accounts last up to two years and can be renewed
-indefinitely.
+Accessing the corpora requires a UW CSE unix account. UW members can receive a
+free UW CSE guest account by having a UW CSE faculty or staff [sponsor
+them](https://sponsor.cs.washington.edu/). Despite the name "sponsor," this is
+absolutely _free_ for both parties. Guest accounts last up to two years and can
+pbe renewed indefinitely.
 
 Access outside UW is not possible.
 
@@ -72,9 +72,9 @@ Access outside UW is not possible.
 For any bugs or questions, please open a GitHub issue on this repository (top
 of the webpage).
 
-To help contribute to this project, please check out the backend repository at
-https://github.com/mbforbes/nlp-corpora-backend and open issues or pull
-requests there.
+To help contribute to this project, please check out the [backend
+repository](https://github.com/mbforbes/nlp-corpora-backend) and open issues or
+pull requests there.
 
 ## Maintainers
 
