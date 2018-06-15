@@ -79,7 +79,12 @@ Access outside UW is not possible.
 
 ## Bugs / questions / contributions
 
-Please open a GitHub issue or pull request on this repository.
+For any bugs or questions, please open a GitHub issue on this repository (top
+of the webpage).
+
+To help contribute to this project, please check out the backend repository at
+https://github.com/mbforbes/nlp-corpora-backend and open issues or pull
+requests there.
 
 ## Maintainers
 
