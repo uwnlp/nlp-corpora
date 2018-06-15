@@ -9,7 +9,8 @@ proposing new additions.
 
 ## Live Status
 
-Below is the live status of the corpora, updated daily.
+Below is the live status of the corpora, updated daily
+([legend](https://github.com/mbforbes/nlp-corpora-backend#legend)).
 
 dirname | desc | size | dir clean | README exists | README complete
 --- | --- | --- | --- | --- | ---
@@ -19,17 +20,6 @@ prj-wo-readme | None | 0B | ✔ | ✗ | ✗
 good-bare-prj | None | 0B | ✔ | ✔ | ✔
 crapfile.crap | None | 0B | ✗ | ✗ | ✗
 good-detailed-prj | This is a sample description. | 4.0K | ✔ | ✔ | ✔
-
-### Legend
-
-key | meaning
---- | ---
-dirname | The name of the top-level corpus directory within `nlp-corpora`
-desc | The description found in the README.md file for the corpus
-size | The total size of the corpus directory
-dir clean | Whether only the allowed directories and files were found
-README exists | Whether the `README.md` file was found
-README complete | Whether the `README.md` file contained descriptions for all subdirectories in `processed/`
 
 ## Using the corpora
 
