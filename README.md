@@ -70,13 +70,12 @@ please open a github issue to request access to a restricted corpus.
 
 ### Access outside UW CSE
 
-Accessing the corpora requires a UW CSE unix account. UW members can receive a
-free UW CSE guest account by having a UW CSE faculty or staff [sponsor
+Accessing the corpora requires a UW CSE unix account. Anyone can receive a free
+UW CSE guest account by having a UW CSE faculty or staff [sponsor
 them](https://sponsor.cs.washington.edu/). Despite the name "sponsor," this is
 absolutely _free_ for both parties. Guest accounts last up to two years and can
-pbe renewed indefinitely.
-
-Access outside UW is not possible.
+be renewed indefinitely. This is the way to grant NLP friends in EE and
+linguistics access to nlp-corpora.
 
 ### Table legend
 
