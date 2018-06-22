@@ -179,4 +179,3 @@ pull requests there.
 ## Maintainers
 
 - [Max Forbes](https://github.com/mbforbes)
-
