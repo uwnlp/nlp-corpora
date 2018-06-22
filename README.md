@@ -17,7 +17,7 @@ dirname | desc | size | dir clean | README exists | README complete
 gutenberg-en | English Gutenberg. | 106G | ✔ | ✔ | ✗
 nyt-annotated | The New York Times Annotated Corpus | 3.1G | ✔ | ✔ | ✔
 fanfiction | This is a corpus of 1.25 billion lines of fan fiction text. | 164G | ✔ | ✔ | ✗
-gigaword-en-5 | English Gigaword Fifth Edition | 9.2G | ✔ | ✔ | ✔
+gigaword-en-5 | English Gigaword Fifth Edition | 33G | ✔ | ✔ | ✔
 byu-coca | https://corpus.byu.edu/coca/ | 6.0G | ✔ | ✔ | ✔
 byu-coha | https://corpus.byu.edu/coha/ | 4.4G | ✔ | ✔ | ✔
 google-syntax-ngrams | English Google Syntax Ngrams (v20120701) | 319G | ✔ | ✔ | ✔
