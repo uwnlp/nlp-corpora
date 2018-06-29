@@ -80,20 +80,6 @@ absolutely _free_ for both parties. Guest accounts last up to two years and can
 be renewed indefinitely. This is the way to grant NLP friends in EE and
 linguistics access to nlp-corpora.
 
-### Table legend
-
-Here are what the columns of the live status table (above) mean.
-
-key | meaning
---- | ---
-dirname | The name of the top-level corpus directory within `nlp-corpora`
-desc | The description found in the README.md file for the corpus
-size | The total size of the corpus directory
-dir clean | Whether only the allowed directories and files were found
-README exists | Whether the `README.md` file was found
-README complete | Whether the `README.md` file contained descriptions for all subdirectories in `processed/`
-
-
 
 ## Corpus structure
 

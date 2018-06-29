@@ -15,3 +15,14 @@ nyt-annotated        The New York Times   3.1G       ✔          ✔        ✔
 penn-treebank-revis  English News Text T  16M        ✔          ✔        ✔       ✔      
 roc-stories          ROCStories Corpus.   27M        ✔          ✔        ✔       ✔      
 toronto-books        The Toronto Books c  8.8G       ✔          ✔        ✔       ✔      
+
+Detailed errors:
+fanfiction
+--------------------------------------------------------------------------------
+ - Missing description in README.md for processed variant: "flat-tkn-nodialog"
+
+gutenberg-en
+--------------------------------------------------------------------------------
+ - Missing description in README.md for processed variant: "tkn"
+ - Missing description in README.md for processed variant: "srl-dep"
+ - Missing description in README.md for processed variant: "pos"
