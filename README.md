@@ -1,7 +1,7 @@
 # nlp-corpora
 
 ![](https://img.shields.io/badge/docs-errors-red.svg?longCache=true&style=flat)
-![](https://img.shields.io/badge/built-7/6/18-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/built-7/9/18-blue.svg?longCache=true&style=flat)
 
 UW NLP maintains a repository of corpora for internal UW use on the UW CSE
 department fileserver at `/projects/nlp-corpora/`.
@@ -17,19 +17,19 @@ below](#table-legend)).
 
 dirname | desc | size | status
 --- | --- | --- | ---
-byu-coca | https://corpus.byu.edu/coca/ | 6.0G | ✔
-byu-coha | https://corpus.byu.edu/coha/ | 4.4G | ✔
-byu-now | https://corpus.byu.edu/now/ | 85G | ✔
-deepbank | This is version 1.1 of the DeepBank corpus contains HPSG and MRS | 665M | ✔
+byu-coca | https://corpus.byu.edu/coca/ | 6.0G | ✗
+byu-coha | https://corpus.byu.edu/coha/ | 4.4G | ✗
+byu-now | https://corpus.byu.edu/now/ | 85G | ✗
+deepbank | This is version 1.1 of the DeepBank corpus contains HPSG and MRS | 665M | ✗
 fanfiction | This is a corpus of 1.25 billion lines of fan fiction text. | 164G | ✗
-gigaword-en-5 | English Gigaword Fifth Edition | 33G | ✔
-google-surface-ngrams | Google surface ngrams (web 1T 5-gram v1) | 25G | ✔
-google-syntax-ngrams | English Google Syntax Ngrams (v20120701) | 319G | ✔
+gigaword-en-5 | English Gigaword Fifth Edition | 33G | ✗
+google-surface-ngrams | Google surface ngrams (web 1T 5-gram v1) | 25G | ✗
+google-syntax-ngrams | English Google Syntax Ngrams (v20120701) | 319G | ✗
 gutenberg-en | English Gutenberg. | 106G | ✗
-nyt-annotated | The New York Times Annotated Corpus | 3.1G | ✔
-penn-treebank-revised | English News Text Treebank: Penn Treebank Revised | 16M | ✔
-roc-stories | ROCStories Corpus. | 27M | ✔
-toronto-books | The Toronto Books corpus. | 8.8G | ✔
+nyt-annotated | The New York Times Annotated Corpus | 3.1G | ✗
+penn-treebank-revised | English News Text Treebank: Penn Treebank Revised | 16M | ✗
+roc-stories | ROCStories Corpus. | 27M | ✗
+toronto-books | None | 8.8G | ✗
 
 
 
