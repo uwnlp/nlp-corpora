@@ -1,7 +1,7 @@
 # nlp-corpora
 
 ![](https://img.shields.io/badge/docs-passing-brightgreen.svg?longCache=true&style=flat)
-![](https://img.shields.io/badge/built-7/13/18-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/built-7/16/18-blue.svg?longCache=true&style=flat)
 
 UW NLP maintains a repository of corpora for internal UW use on the UW CSE
 department fileserver at `/projects/nlp-corpora/`.
@@ -12,8 +12,7 @@ proposing new additions.
 
 ## Live Status
 
-Below is the live status of the corpora, updated daily ([legend
-below](#table-legend)).
+Below is the live status of the corpora, updated daily.
 
 dirname | desc | size | status
 --- | --- | --- | ---
