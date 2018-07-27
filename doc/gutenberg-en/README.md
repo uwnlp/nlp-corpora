@@ -1,20 +1,14 @@
 # Gutenberg English
 
-English Gutenberg.
+All English books from Project Gutenberg
 
 Downloaded November 17, 2016.
 
-Only ASCII-encoded versions of files were kept. The full process of acquiring the data is described here:
+Only ASCII-encoded versions of files were kept. The full process of
+acquiring the data is described here:
 https://gist.github.com/mbforbes/cee3fd5bb3a797b059524fe8c8ccdc2b
 
 ## processed
-
-### srl-dep
-
-This contains results of the EasySRL parser run on the entire corpus,
-in the 'dependency' output format.
-
-https://github.com/uwnlp/easysrl
 
 ### tkn
 

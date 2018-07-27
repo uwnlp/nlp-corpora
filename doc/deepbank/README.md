@@ -1,9 +1,11 @@
 # deepbank
 
-This is version 1.1 of the DeepBank corpus contains HPSG and MRS
-syntactic and semantic annotations of sections 00 to 21 of the Wall
-Street Journal corpus. These annotations are contained in binary files
-constructed by the annotation software.
+Syntactic + semantic annotations on WSJ.
+
+This is version 1.1 of the DeepBank corpus, which contains HPSG and
+MRS syntactic and semantic annotations of sections 00 to 21 of the
+Wall Street Journal corpus. These annotations are contained in binary
+files constructed by the annotation software.
 
 Original data:
 http://svn.delph-in.net/erg/tags/1214/

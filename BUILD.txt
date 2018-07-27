@@ -1,17 +1,55 @@
-Overall pass: True
+Overall pass: False
 
 dirname              desc                 size       group  owner  perms  dir clean  README?  R-desc  R-proc 
 ---                  ---                  ---        ---    ---    ---    ---        ---      ---     ---    
-byu-coca             https://corpus.byu.  6.0G       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-byu-coha             https://corpus.byu.  4.4G       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-byu-now              https://corpus.byu.  85G        ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-deepbank             This is version 1.1  665M       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-fanfiction           This is a corpus of  164G       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-gigaword-en-5        English Gigaword Fi  33G        ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+byu-coca             BYU's Corpus of Con  6.0G       ✔      ✔      ✗      ✔          ✔        ✔       ✔      
+byu-coha             BYU's Corpus of His  4.4G       ✔      ✔      ✗      ✔          ✔        ✔       ✔      
+byu-now              BYU's "NOW" Corpus   85G        ✔      ✔      ✗      ✔          ✔        ✔       ✔      
+deepbank             Syntactic + semanti  665M       ✔      ✔      ✗      ✔          ✔        ✔       ✔      
+fanfiction           A large collection   164G       ✔      ✔      ✗      ✔          ✔        ✔       ✔      
+gigaword-en-5        English Gigaword, F  33G        ✔      ✔      ✗      ✔          ✔        ✔       ✔      
 google-surface-ngra  Google surface ngra  25G        ✔      ✔      ✔      ✔          ✔        ✔       ✔      
 google-syntax-ngram  English Google Synt  319G       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-gutenberg-en         English Gutenberg.   84G        ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+gutenberg-en         All English books f  12G        ✔      ✔      ✗      ✔          ✔        ✔       ✔      
 nyt-annotated        The New York Times   3.1G       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
 penn-treebank-revis  English News Text T  16M        ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-roc-stories          ROCStories Corpus.   27M        ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-toronto-books        The Toronto Books c  8.8G       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+roc-stories          The ROCStories corp  27M        ✔      ✔      ✗      ✔          ✔        ✔       ✔      
+toronto-books        The Toronto BookCor  8.8G       ✔      ✔      ✗      ✔          ✔        ✔       ✔      
+
+Detailed errors:
+byu-coca
+--------------------------------------------------------------------------------
+ - Path "/projects/nlp-corpora/byu-coca/README.md" has mode "420", but want mode to be "292"
+
+byu-coha
+--------------------------------------------------------------------------------
+ - Path "/projects/nlp-corpora/byu-coha/README.md" has mode "420", but want mode to be "292"
+
+byu-now
+--------------------------------------------------------------------------------
+ - Path "/projects/nlp-corpora/byu-now/README.md" has mode "420", but want mode to be "292"
+
+deepbank
+--------------------------------------------------------------------------------
+ - Path "/projects/nlp-corpora/deepbank/README.md" has mode "420", but want mode to be "292"
+
+fanfiction
+--------------------------------------------------------------------------------
+ - Path "/projects/nlp-corpora/fanfiction/README.md" has mode "420", but want mode to be "292"
+
+gigaword-en-5
+--------------------------------------------------------------------------------
+ - Path "/projects/nlp-corpora/gigaword-en-5/README.md" has mode "420", but want mode to be "292"
+
+gutenberg-en
+--------------------------------------------------------------------------------
+ - Path "/projects/nlp-corpora/gutenberg-en/README.md" has mode "420", but want mode to be "292"
+ - One or more file/dirs at/below "/projects/nlp-corpora/gutenberg-en/processed" has permission errors.
+
+roc-stories
+--------------------------------------------------------------------------------
+ - Path "/projects/nlp-corpora/roc-stories/README.md" has mode "420", but want mode to be "292"
+
+toronto-books
+--------------------------------------------------------------------------------
+ - Path "/projects/nlp-corpora/toronto-books/README.md" has mode "420", but want mode to be "292"

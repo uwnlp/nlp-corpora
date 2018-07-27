@@ -1,6 +1,6 @@
 # fanfiction
 
-This is a corpus of 1.25 billion lines of fan fiction text.
+A large collection (1.25 billion lines) of fan fiction text.
 
 ## processed
 

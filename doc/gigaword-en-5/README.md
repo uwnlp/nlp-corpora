@@ -1,6 +1,6 @@
 # gigaword english v5
 
-English Gigaword Fifth Edition
+English Gigaword, Fifth Edition
 
 Downloaded December 14, 2016
 
