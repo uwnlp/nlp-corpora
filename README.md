@@ -6,29 +6,32 @@
 UW NLP maintains a repository of corpora for internal UW use on the UW CSE
 department fileserver at `/projects/nlp-corpora/`.
 
-The main purpose of this document is to provide a live, browsable index of all
-of the corpora. Below that are instructions for accessing the corpora and
-proposing new additions.
+This document provides a live, browsable index of all of the corpora. Below
+that are instructions for accessing the corpora and proposing new additions.
 
 ## Live Status
 
-Below is the live status of the corpora, updated daily.
+This table contains a live view of all corpora. It is updated daily by a
+crawler that scans all corpora and checks that they meet quality guidelines
+(ownership, permissions, documentation, and corpus structure). Click on any
+corpus to view its readme. More information on restricted access is provided
+below.
 
-dirname | desc | size | status
---- | --- | --- | ---
-[byu-coca](doc/byu-coca) | https://corpus.byu.edu/coca/ | 6.0G | ✔
-[byu-coha](doc/byu-coha) | https://corpus.byu.edu/coha/ | 4.4G | ✔
-[byu-now](doc/byu-now) | https://corpus.byu.edu/now/ | 85G | ✔
-[deepbank](doc/deepbank) | This is version 1.1 of the DeepBank corpus contains HPSG and MRS | 665M | ✔
-[fanfiction](doc/fanfiction) | This is a corpus of 1.25 billion lines of fan fiction text. | 164G | ✔
-[gigaword-en-5](doc/gigaword-en-5) | English Gigaword Fifth Edition | 33G | ✔
-[google-surface-ngrams](doc/google-surface-ngrams) | Google surface ngrams (web 1T 5-gram v1) | 25G | ✔
-[google-syntax-ngrams](doc/google-syntax-ngrams) | English Google Syntax Ngrams (v20120701) | 319G | ✔
-[gutenberg-en](doc/gutenberg-en) | English Gutenberg. | 84G | ✔
-[nyt-annotated](doc/nyt-annotated) | The New York Times Annotated Corpus | 3.1G | ✔
-[penn-treebank-revised](doc/penn-treebank-revised) | English News Text Treebank: Penn Treebank Revised | 16M | ✔
-[roc-stories](doc/roc-stories) | ROCStories Corpus. | 27M | ✔
-[toronto-books](doc/toronto-books) | The Toronto Books corpus. | 8.8G | ✔
+Corpus | Description | Size | Access | Status
+--- | --- | --- | --- | ---
+[byu-coca](doc/byu-coca) | https://corpus.byu.edu/coca/ | 6.0G | `nlpc-byu` | ✔
+[byu-coha](doc/byu-coha) | https://corpus.byu.edu/coha/ | 4.4G | `nlpc-byu` | ✔
+[byu-now](doc/byu-now) | https://corpus.byu.edu/now/ | 85G | `nlpc-byu` | ✔
+[deepbank](doc/deepbank) | This is version 1.1 of the DeepBank corpus contains HPSG and MRS | 665M | ✔ | ✔
+[fanfiction](doc/fanfiction) | This is a corpus of 1.25 billion lines of fan fiction text. | 164G | ✔ | ✔
+[gigaword-en-5](doc/gigaword-en-5) | English Gigaword Fifth Edition | 33G | ✔ | ✔
+[google-surface-ngrams](doc/google-surface-ngrams) | Google surface ngrams (web 1T 5-gram v1) | 25G | ✔ | ✔
+[google-syntax-ngrams](doc/google-syntax-ngrams) | English Google Syntax Ngrams (v20120701) | 319G | ✔ | ✔
+[gutenberg-en](doc/gutenberg-en) | English Gutenberg. | 84G | ✔ | ✔
+[nyt-annotated](doc/nyt-annotated) | The New York Times Annotated Corpus | 3.1G | ✔ | ✔
+[penn-treebank-revised](doc/penn-treebank-revised) | English News Text Treebank: Penn Treebank Revised | 16M | ✔ | ✔
+[roc-stories](doc/roc-stories) | ROCStories Corpus. | 27M | ✔ | ✔
+[toronto-books](doc/toronto-books) | The Toronto Books corpus. | 8.8G | `nlpc-tb` | ✔
 
 
 
@@ -161,9 +164,3 @@ of the webpage).
 To help contribute to this project, please check out the [backend
 repository](https://github.com/mbforbes/nlp-corpora-backend) and open issues or
 pull requests there.
-
-
-
-## Maintainers
-
-- [Max Forbes](https://github.com/mbforbes)
