@@ -1,6 +1,6 @@
 # nlp-corpora
 
-![](https://img.shields.io/badge/docs-errors-red.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/docs-passing-brightgreen.svg?longCache=true&style=flat)
 ![](https://img.shields.io/badge/built-7/27/18-blue.svg?longCache=true&style=flat)
 
 UW NLP maintains a repository of corpora for internal UW use on the UW CSE
@@ -19,19 +19,19 @@ below.
 
 Corpus | Description | Size | Access | Status
 --- | --- | --- | --- | ---
-[byu-coca](doc/byu-coca) | BYU's Corpus of Contemporary American English | 6.0G | `nlpc-byu` | ✗
-[byu-coha](doc/byu-coha) | BYU's Corpus of Historical American English | 4.4G | `nlpc-byu` | ✗
-[byu-now](doc/byu-now) | BYU's "NOW" Corpus (News On the Web) | 85G | `nlpc-byu` | ✗
-[deepbank](doc/deepbank) | Syntactic + semantic annotations on WSJ. | 665M | ✔ | ✗
-[fanfiction](doc/fanfiction) | A large collection (1.25 billion lines) of fan fiction text. | 164G | ✔ | ✗
-[gigaword-en-5](doc/gigaword-en-5) | English Gigaword, Fifth Edition | 33G | ✔ | ✗
+[byu-coca](doc/byu-coca) | BYU's Corpus of Contemporary American English | 6.0G | `nlpc-byu` | ✔
+[byu-coha](doc/byu-coha) | BYU's Corpus of Historical American English | 4.4G | `nlpc-byu` | ✔
+[byu-now](doc/byu-now) | BYU's "NOW" Corpus (News On the Web) | 85G | `nlpc-byu` | ✔
+[deepbank](doc/deepbank) | Syntactic + semantic annotations on WSJ. | 665M | ✔ | ✔
+[fanfiction](doc/fanfiction) | A large collection (1.25 billion lines) of fan fiction text. | 164G | ✔ | ✔
+[gigaword-en-5](doc/gigaword-en-5) | English Gigaword, Fifth Edition | 33G | ✔ | ✔
 [google-surface-ngrams](doc/google-surface-ngrams) | Google surface ngrams (web 1T 5-gram v1) | 25G | ✔ | ✔
 [google-syntax-ngrams](doc/google-syntax-ngrams) | English Google Syntax Ngrams (v20120701) | 319G | ✔ | ✔
-[gutenberg-en](doc/gutenberg-en) | All English books from Project Gutenberg | 12G | ✔ | ✗
+[gutenberg-en](doc/gutenberg-en) | All English books from Project Gutenberg | 12G | ✔ | ✔
 [nyt-annotated](doc/nyt-annotated) | The New York Times Annotated Corpus | 3.1G | ✔ | ✔
 [penn-treebank-revised](doc/penn-treebank-revised) | English News Text Treebank: Penn Treebank Revised | 16M | ✔ | ✔
-[roc-stories](doc/roc-stories) | The ROCStories corpus of crowd-authored commonsense stories | 27M | ✔ | ✗
-[toronto-books](doc/toronto-books) | The Toronto BookCorpus, a large collection of books | 8.8G | `nlpc-tb` | ✗
+[roc-stories](doc/roc-stories) | ROCStories: crowd-authored commonsense stories | 27M | ✔ | ✔
+[toronto-books](doc/toronto-books) | The Toronto BookCorpus, a large collection of books | 8.8G | `nlpc-tb` | ✔
 
 
 
