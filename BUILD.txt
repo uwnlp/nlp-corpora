@@ -2,16 +2,16 @@ Overall pass: True
 
 dirname              desc                 size       group  owner  perms  dir clean  README?  R-desc  R-proc 
 ---                  ---                  ---        ---    ---    ---    ---        ---      ---     ---    
-byu-coca             BYU's Corpus of Con  6.0G       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-byu-coha             BYU's Corpus of His  4.4G       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-byu-now              BYU's "NOW" Corpus   85G        ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-deepbank             Syntactic + semanti  665M       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-fanfiction           A large collection   164G       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-gigaword-en-5        English Gigaword, F  33G        ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-google-surface-ngra  Google surface ngra  25G        ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-google-syntax-ngram  English Google Synt  319G       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-gutenberg-en         All English books f  12G        ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-nyt-annotated        The New York Times   3.1G       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-penn-treebank-revis  English News Text T  16M        ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-roc-stories          ROCStories: crowd-a  27M        ✔      ✔      ✔      ✔          ✔        ✔       ✔      
-toronto-books        The Toronto BookCor  8.8G       ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+byu-coca             BYU's Corpus of Con  6.24 MB    ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+byu-coha             BYU's Corpus of His  4.54 MB    ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+byu-now              BYU's "NOW" Corpus   88.14 MB   ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+deepbank             Syntactic + semanti  680.64 KB  ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+fanfiction           A large collection   171.09 MB  ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+gigaword-en-5        English Gigaword, F  33.69 MB   ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+google-surface-ngra  Google surface ngra  25.61 MB   ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+google-syntax-ngram  English Google Synt  333.57 MB  ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+gutenberg-en         All English books f  12.4 MB    ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+nyt-annotated        The New York Times   3.18 MB    ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+penn-treebank-revis  English News Text T  15.82 KB   ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+roc-stories          ROCStories: crowd-a  27.07 KB   ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+toronto-books        The Toronto BookCor  9.22 MB    ✔      ✔      ✔      ✔          ✔        ✔       ✔      
