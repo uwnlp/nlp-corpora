@@ -1,6 +1,6 @@
 # nlp-corpora
 
-![](https://img.shields.io/badge/docs-errors-red.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/docs-passing-brightgreen.svg?longCache=true&style=flat)
 ![](https://img.shields.io/badge/built-8/10/18-blue.svg?longCache=true&style=flat)
 
 UW NLP maintains a repository of corpora for internal UW use on the UW CSE
@@ -13,25 +13,30 @@ that are instructions for accessing the corpora and proposing new additions.
 
 This table contains a live view of all corpora. It is updated daily by a
 crawler that scans all corpora and checks that they meet quality guidelines
-(immutability, access permissions, documentation, and corpus structure). Click
-on any corpus to view its readme. More information on restricted access is
-provided below.
+(immutability, access permissions, documentation, and corpus structure).
 
-Corpus | Description | Size | Access | Status
+Click on any corpus to view its readme.
+
+If the **Access** column shows a ✓, then it is open-access and ready for use.
+If not, the corpus is under restricted access due to its license or terms of
+use. Visit the [Restricted access](#restricted-access) section for details on
+each of these corpora.
+
+Corpus | Description | Size | [Access](#restricted-access) | Status
 --- | --- | --- | --- | ---
-[byu-coca](doc/byu-coca) | BYU's Corpus of Contemporary American English | 6.39 GB | `nlpc-byu` | ✗
-[byu-coha](doc/byu-coha) | BYU's Corpus of Historical American English | 4.65 GB | `nlpc-byu` | ✔
-[byu-now](doc/byu-now) | BYU's "NOW" Corpus (News On the Web) | 90.25 GB | `nlpc-byu` | ✔
-[deepbank](doc/deepbank) | Syntactic + semantic annotations on WSJ. | 579.6 MB | ✔ | ✔
-[fanfiction](doc/fanfiction) | A large collection (1.25 billion lines) of fan fiction text. | 175.2 GB | ✔ | ✔
-[gigaword-en-5](doc/gigaword-en-5) | English Gigaword, Fifth Edition | 34.49 GB | ✔ | ✔
-[google-surface-ngrams](doc/google-surface-ngrams) | Google surface ngrams (web 1T 5-gram v1) | 26.2 GB | ✔ | ✔
-[google-syntax-ngrams](doc/google-syntax-ngrams) | English Google Syntax Ngrams (v20120701) | 341.23 GB | ✔ | ✔
-[gutenberg-en](doc/gutenberg-en) | All English books from Project Gutenberg | 12.69 GB | ✔ | ✔
-[nyt-annotated](doc/nyt-annotated) | The New York Times Annotated Corpus | 3.25 GB | ✔ | ✔
-[penn-treebank-revised](doc/penn-treebank-revised) | English News Text Treebank: Penn Treebank Revised | 16.19 MB | ✔ | ✔
-[roc-stories](doc/roc-stories) | ROCStories: crowd-authored commonsense stories | 27.67 MB | ✔ | ✔
-[toronto-books](doc/toronto-books) | The Toronto BookCorpus, a large collection of books | 9.44 GB | `nlpc-tb` | ✔
+[byu-coca](doc/byu-coca) | BYU's Corpus of Contemporary American English | 6.39 GB | [`nlpc-byu`](#restricted-access) | ✓
+[byu-coha](doc/byu-coha) | BYU's Corpus of Historical American English | 4.65 GB | [`nlpc-byu`](#restricted-access) | ✓
+[byu-now](doc/byu-now) | BYU's "NOW" Corpus (News On the Web) | 90.25 GB | [`nlpc-byu`](#restricted-access) | ✓
+[deepbank](doc/deepbank) | Syntactic + semantic annotations on WSJ. | 579.6 MB | ✓ | ✓
+[fanfiction](doc/fanfiction) | A large collection (1.25 billion lines) of fan fiction text. | 175.2 GB | ✓ | ✓
+[gigaword-en-5](doc/gigaword-en-5) | English Gigaword, Fifth Edition | 34.49 GB | ✓ | ✓
+[google-surface-ngrams](doc/google-surface-ngrams) | Google surface ngrams (web 1T 5-gram v1) | 26.2 GB | ✓ | ✓
+[google-syntax-ngrams](doc/google-syntax-ngrams) | English Google Syntax Ngrams (v20120701) | 341.23 GB | ✓ | ✓
+[gutenberg-en](doc/gutenberg-en) | All English books from Project Gutenberg | 12.69 GB | ✓ | ✓
+[nyt-annotated](doc/nyt-annotated) | The New York Times Annotated Corpus | 3.25 GB | ✓ | ✓
+[penn-treebank-revised](doc/penn-treebank-revised) | English News Text Treebank: Penn Treebank Revised | 16.19 MB | ✓ | ✓
+[roc-stories](doc/roc-stories) | ROCStories: crowd-authored commonsense stories | 27.67 MB | ✓ | ✓
+[toronto-books](doc/toronto-books) | The Toronto BookCorpus, a large collection of books | 9.44 GB | [`nlpc-tb`](#restricted-access) | ✓
 
 
 ![plot of disk usage](disk-usage.svg)
@@ -71,8 +76,13 @@ to be cleared for access. To honor these requests, we restrict access to
 corpora for which this is required by narrowing the unix group that has read
 privileges.
 
-Instructions for streamlining this process are coming soon. In the mean time,
-please open a github issue to request access to a restricted corpus.
+Detailed instructions for each corpus are linked to in the table below.
+
+Access | How to be added
+--- | ---
+nlpc-byu | Please follow [these instructions](doc/byu-coca#restricted-access) for gaining access to the BYU corpora.
+nlpc-tb | Please follow [these instructions](doc/toronto-books#restricted-access) for gaining access to the Toronto Book corpus.
+
 
 ### Access outside UW CSE
 
