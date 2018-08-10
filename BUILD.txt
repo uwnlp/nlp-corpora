@@ -1,8 +1,8 @@
-Overall pass: True
+Overall pass: False
 
 dirname              desc                 size       group  owner  perms  dir clean  README?  R-desc  R-proc 
 ---                  ---                  ---        ---    ---    ---    ---        ---      ---     ---    
-byu-coca             BYU's Corpus of Con  6.39 GB    ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+byu-coca             BYU's Corpus of Con  6.39 GB    ✔      ✔      ✗      ✔          ✔        ✔       ✔      
 byu-coha             BYU's Corpus of His  4.65 GB    ✔      ✔      ✔      ✔          ✔        ✔       ✔      
 byu-now              BYU's "NOW" Corpus   90.25 GB   ✔      ✔      ✔      ✔          ✔        ✔       ✔      
 deepbank             Syntactic + semanti  579.6 MB   ✔      ✔      ✔      ✔          ✔        ✔       ✔      
@@ -15,3 +15,8 @@ nyt-annotated        The New York Times   3.25 GB    ✔      ✔      ✔      
 penn-treebank-revis  English News Text T  16.19 MB   ✔      ✔      ✔      ✔          ✔        ✔       ✔      
 roc-stories          ROCStories: crowd-a  27.67 MB   ✔      ✔      ✔      ✔          ✔        ✔       ✔      
 toronto-books        The Toronto BookCor  9.44 GB    ✔      ✔      ✔      ✔          ✔        ✔       ✔      
+
+Detailed errors:
+byu-coca
+--------------------------------------------------------------------------------
+ - Path "/projects/nlp-corpora/byu-coca/README.md" has mode "420", but want mode to be "292"

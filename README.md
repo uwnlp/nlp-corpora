@@ -1,7 +1,7 @@
 # nlp-corpora
 
-![](https://img.shields.io/badge/docs-passing-brightgreen.svg?longCache=true&style=flat)
-![](https://img.shields.io/badge/built-8/9/18-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/docs-errors-red.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/built-8/10/18-blue.svg?longCache=true&style=flat)
 
 UW NLP maintains a repository of corpora for internal UW use on the UW CSE
 department fileserver at `/projects/nlp-corpora/`.
@@ -13,13 +13,13 @@ that are instructions for accessing the corpora and proposing new additions.
 
 This table contains a live view of all corpora. It is updated daily by a
 crawler that scans all corpora and checks that they meet quality guidelines
-(ownership, permissions, documentation, and corpus structure). Click on any
-corpus to view its readme. More information on restricted access is provided
-below.
+(immutability, access permissions, documentation, and corpus structure). Click
+on any corpus to view its readme. More information on restricted access is
+provided below.
 
 Corpus | Description | Size | Access | Status
 --- | --- | --- | --- | ---
-[byu-coca](doc/byu-coca) | BYU's Corpus of Contemporary American English | 6.39 GB | `nlpc-byu` | ✔
+[byu-coca](doc/byu-coca) | BYU's Corpus of Contemporary American English | 6.39 GB | `nlpc-byu` | ✗
 [byu-coha](doc/byu-coha) | BYU's Corpus of Historical American English | 4.65 GB | `nlpc-byu` | ✔
 [byu-now](doc/byu-now) | BYU's "NOW" Corpus (News On the Web) | 90.25 GB | `nlpc-byu` | ✔
 [deepbank](doc/deepbank) | Syntactic + semantic annotations on WSJ. | 579.6 MB | ✔ | ✔
@@ -45,11 +45,12 @@ the machines `{recycle,bicycle,tricycle}@cs.washington.edu`) so that they can
 view the department filesystem. The nlp-corpora directory is located on the
 department filesystem at `/projects/nlp-corpora/`. Anyone with a UW CSE account
 can log onto the department servers and view the files there. (For those
-without a UW CSE account, see the section below.)
+without a UW CSE account, see the [restricted access
+section](#restricted-access).)
 
-The corpora are meant to be read-only so that they stay in a known, clean
-state. To work with files from the corpora, please copy them to a local
-directory, e.g., with `scp`.
+The corpora are read-only (this is enforced by our crawler) so that they stay
+in a known, clean state. To work with files from the corpora, please copy them
+to a local directory, e.g., with `scp`.
 
 ### Corpus structure
 
