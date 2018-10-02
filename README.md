@@ -51,6 +51,7 @@ Corpus | Description | Size | [Access](#restricted-access) | Status
 [google-syntax-ngrams](doc/google-syntax-ngrams) | English Google Syntax Ngrams (v20120701) | 341.23 GB | ✓ | ✓
 [gutenberg-en](doc/gutenberg-en) | All English books from Project Gutenberg | 12.69 GB | ✓ | ✓
 [nyt-annotated](doc/nyt-annotated) | The New York Times Annotated Corpus | 3.25 GB | ✓ | ✓
+[penn-treebank-3](doc/penn-treebank-3) | The Penn Treebank v3 (1999). | 54.1 MB | ✓ | ✓
 [penn-treebank-revised](doc/penn-treebank-revised) | English News Text Treebank: Penn Treebank Revised | 16.19 MB | ✓ | ✓
 [roc-stories](doc/roc-stories) | ROCStories: crowd-authored commonsense stories | 27.67 MB | ✓ | ✓
 [toronto-books](doc/toronto-books) | The Toronto BookCorpus, a large collection of books | 9.44 GB | [`nlpc-tb`](#restricted-access) | ✓
