@@ -2,20 +2,6 @@
 
 The Toronto BookCorpus, a large collection of books
 
-## Restricted access
-
-This corpus is only available to those who have completed and had
-approved a request form to Toronto researchers. The instructions and
-forms to do so are available here:
-
-http://yknzhu.wixsite.com/mbweb
-
-After completing that process, forward your confirmation email, along
-with your CSE netid, to one of NLP corpus admins (e.g.,
-mbforbes@cs.uw.edu). If the above website is no longer available,
-contact the NLP corpus admins to determine what we should do and
-update this doc.
-
 ## Usage notice
 
 The following notice is provided to users who have been granted access
@@ -39,6 +25,10 @@ The corpus was downloaded November 7, 2017.
 Detailed information on the corpus is available here:
 
 http://yknzhu.wixsite.com/mbweb
+
+Access to this corpus was previously restricted, but it's no longer
+available from the original source. Thus, we treat our internal copy
+as read only and generally available within UW.
 
 Citation:
 
