@@ -1,7 +1,7 @@
 # nlp-corpora
 
 ![](https://img.shields.io/badge/docs-passing-brightgreen.svg?longCache=true&style=flat)
-![](https://img.shields.io/badge/built-11/28/18-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/built-11/29/18-blue.svg?longCache=true&style=flat)
 
 **_A community-built high-quality repository of NLP corpora_**
 
@@ -51,6 +51,7 @@ Corpus | Description | Size | [Access](#restricted-access) | Status
 [google-syntax-ngrams](doc/google-syntax-ngrams) | English Google Syntax Ngrams (v20120701) | 341.23 GB | ✓ | ✓
 [gutenberg-en](doc/gutenberg-en) | All English books from Project Gutenberg | 12.69 GB | ✓ | ✓
 [nyt-annotated](doc/nyt-annotated) | The New York Times Annotated Corpus | 3.25 GB | ✓ | ✓
+[ontonotes](doc/ontonotes) | OntoNotes Release 5.0 | 932.92 MB | ✓ | ✓
 [penn-treebank-3](doc/penn-treebank-3) | The Penn Treebank v3 (1999). | 54.1 MB | ✓ | ✓
 [penn-treebank-revised](doc/penn-treebank-revised) | English News Text Treebank: Penn Treebank Revised | 16.19 MB | ✓ | ✓
 [roc-stories](doc/roc-stories) | ROCStories: crowd-authored commonsense stories | 27.67 MB | ✓ | ✓
