@@ -105,7 +105,6 @@ linked to in the table below.
 Access | How to be added
 --- | ---
 `nlpc-byu` | Please follow [these instructions](doc/byu-coca#restricted-access) for gaining access to the BYU corpora.
-`nlpc-tb` | Please follow [these instructions](doc/toronto-books#restricted-access) for gaining access to the Toronto Book corpus.
 
 
 ### Access outside UW CSE
