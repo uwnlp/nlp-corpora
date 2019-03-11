@@ -1,7 +1,7 @@
 # nlp-corpora
 
 ![](https://img.shields.io/badge/docs-passing-brightgreen.svg?longCache=true&style=flat)
-![](https://img.shields.io/badge/built-3/8/19-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/built-3/11/19-blue.svg?longCache=true&style=flat)
 
 **_A community-built high-quality repository of NLP corpora_**
 
@@ -55,6 +55,7 @@ Corpus | Description | Size | [Access](#restricted-access) | Status
 [penn-treebank-3](doc/penn-treebank-3) | The Penn Treebank v3 (1999). | 54.1 MB | ✓ | ✓
 [penn-treebank-revised](doc/penn-treebank-revised) | English News Text Treebank: Penn Treebank Revised | 16.19 MB | ✓ | ✓
 [roc-stories](doc/roc-stories) | ROCStories: crowd-authored commonsense stories | 27.67 MB | ✓ | ✓
+[tacred](doc/tacred) | TAC Relation Extraction Dataset | 62.08 MB | ✓ | ✓
 [toronto-books](doc/toronto-books) | The Toronto BookCorpus, a large collection of books | 9.44 GB | ✓ | ✓
 
 
