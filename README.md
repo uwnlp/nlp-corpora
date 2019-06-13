@@ -1,7 +1,7 @@
 # nlp-corpora
 
-![](https://img.shields.io/badge/docs-passing-brightgreen.svg?longCache=true&style=flat)
-![](https://img.shields.io/badge/built-6/12/19-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/docs-errors-red.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/built-6/13/19-blue.svg?longCache=true&style=flat)
 
 **_A community-built high-quality repository of NLP corpora_**
 
@@ -49,7 +49,7 @@ Corpus | Description | Size | [Access](#restricted-access) | Status
 [gigaword-en-5](doc/gigaword-en-5) | English Gigaword, Fifth Edition | 34.49 GB | ✓ | ✓
 [google-surface-ngrams](doc/google-surface-ngrams) | Google surface ngrams (web 1T 5-gram v1) | 26.2 GB | ✓ | ✓
 [google-syntax-ngrams](doc/google-syntax-ngrams) | English Google Syntax Ngrams (v20120701) | 341.23 GB | ✓ | ✓
-[gutenberg-en](doc/gutenberg-en) | All English books from Project Gutenberg | 12.69 GB | ✓ | ✓
+[gutenberg-en](doc/gutenberg-en) | All English books from Project Gutenberg | 27.32 GB | ✓ | ✗
 [nyt-annotated](doc/nyt-annotated) | The New York Times Annotated Corpus | 3.25 GB | ✓ | ✓
 [ontonotes](doc/ontonotes) | OntoNotes Release 5.0 | 932.92 MB | ✓ | ✓
 [penn-treebank-3](doc/penn-treebank-3) | The Penn Treebank v3 (1999). | 54.1 MB | ✓ | ✓
