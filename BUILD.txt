@@ -15,6 +15,6 @@ nyt-annotated        The New York Times   3.25 GB    ✓      ✓      ✓      
 ontonotes            OntoNotes Release 5  932.92 MB  ✓      ✓      ✓      ✓          ✓        ✓       ✓      
 penn-treebank-3      The Penn Treebank v  54.1 MB    ✓      ✓      ✓      ✓          ✓        ✓       ✓      
 penn-treebank-revis  English News Text T  16.19 MB   ✓      ✓      ✓      ✓          ✓        ✓       ✓      
-roc-stories          ROCStories: crowd-a  27.67 MB   ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+roc-stories          ROCStories: crowd-a  28.82 MB   ✓      ✓      ✓      ✓          ✓        ✓       ✓      
 tacred               TAC Relation Extrac  62.08 MB   ✓      ✓      ✓      ✓          ✓        ✓       ✓      
 toronto-books        The Toronto BookCor  9.44 GB    ✓      ✓      ✓      ✓          ✓        ✓       ✓      
