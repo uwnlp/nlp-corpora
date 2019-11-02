@@ -21,7 +21,7 @@ researchers, available inside UW.
 - **UW accessible** — All corpora live on the UW CSE department fileserver at
   `/projects/nlp-corpora/` where they enjoy automatic backups. Friends in EE,
   Linguistics, or other departments can [easily receive free
-  access](#access-outside-uw-cse).
+  access](#access-within-uw).
 
 See below for a live, browsable index of all of the corpora, as well
 as instructions for accessing the corpora and proposing new additions.
