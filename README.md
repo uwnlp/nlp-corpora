@@ -1,7 +1,7 @@
 # nlp-corpora
 
 ![](https://img.shields.io/badge/docs-passing-brightgreen.svg?longCache=true&style=flat)
-![](https://img.shields.io/badge/built-11/1/19-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/built-11/2/19-blue.svg?longCache=true&style=flat)
 
 **_A community-built high-quality repository of NLP corpora_**
 
@@ -108,14 +108,19 @@ Access | How to be added
 `nlpc-byu` | Please follow [these instructions](doc/byu-coca#restricted-access) for gaining access to the BYU corpora.
 
 
-### Access outside UW CSE
+### Access within UW
 
-Accessing the corpora requires a UW CSE unix account. Anyone can receive a free
-UW CSE guest account by having a UW CSE faculty or staff [sponsor
-them](https://sponsor.cs.washington.edu/). Despite the name "sponsor," this is
-absolutely _free_ for both parties. Guest accounts last up to two years and can
-be renewed indefinitely. This is the way to grant NLP friends in EE and
-linguistics access to nlp-corpora.
+Accessing the corpora requires a UW CSE unix account. Other
+researchers in UW can receive a free UW CSE guest account by having a
+UW CSE faculty or staff [sponsor
+them](https://sponsor.cs.washington.edu/). Despite the name "sponsor,"
+this is absolutely _free_ for both parties. Guest accounts last up to
+two years and can be renewed indefinitely. This is the way to grant
+NLP friends in UW EE and UW linguistics access to nlp-corpora.
+
+_Please note that nlp-corpora is only available within the
+University of Washington. We cannot grant access to any external
+people or parties._
 
 
 ## Corpus structure
