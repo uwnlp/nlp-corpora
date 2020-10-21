@@ -1,7 +1,7 @@
 # nlp-corpora
 
 ![](https://img.shields.io/badge/docs-passing-brightgreen.svg?longCache=true&style=flat)
-![](https://img.shields.io/badge/built-10/20/20-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/built-10/21/20-blue.svg?longCache=true&style=flat)
 
 **_A community-built high-quality repository of NLP corpora_**
 
@@ -41,22 +41,6 @@ each of these corpora.
 
 Corpus | Description | Size | [Access](#restricted-access) | Status
 --- | --- | --- | --- | ---
-[byu-coca](doc/byu-coca) | BYU's Corpus of Contemporary American English | 6.39 GB | [`nlpc-byu`](#restricted-access) | ✓
-[byu-coha](doc/byu-coha) | BYU's Corpus of Historical American English | 4.65 GB | [`nlpc-byu`](#restricted-access) | ✓
-[byu-now](doc/byu-now) | BYU's "NOW" Corpus (News On the Web) | 90.25 GB | [`nlpc-byu`](#restricted-access) | ✓
-[deepbank](doc/deepbank) | Syntactic + semantic annotations on WSJ. | 579.6 MB | ✓ | ✓
-[fanfiction](doc/fanfiction) | A large collection (1.25 billion lines) of fan fiction text. | 175.2 GB | ✓ | ✓
-[gigaword-en-5](doc/gigaword-en-5) | English Gigaword, Fifth Edition | 34.49 GB | ✓ | ✓
-[google-surface-ngrams](doc/google-surface-ngrams) | Google surface ngrams (web 1T 5-gram v1) | 26.2 GB | ✓ | ✓
-[google-syntax-ngrams](doc/google-syntax-ngrams) | English Google Syntax Ngrams (v20120701) | 341.23 GB | ✓ | ✓
-[gutenberg-en](doc/gutenberg-en) | All English books from Project Gutenberg | 27.32 GB | ✓ | ✓
-[nyt-annotated](doc/nyt-annotated) | The New York Times Annotated Corpus | 3.25 GB | ✓ | ✓
-[ontonotes](doc/ontonotes) | OntoNotes Release 5.0 | 932.92 MB | ✓ | ✓
-[penn-treebank-3](doc/penn-treebank-3) | The Penn Treebank v3 (1999). | 54.1 MB | ✓ | ✓
-[penn-treebank-revised](doc/penn-treebank-revised) | English News Text Treebank: Penn Treebank Revised | 16.19 MB | ✓ | ✓
-[roc-stories](doc/roc-stories) | ROCStories: crowd-authored commonsense stories | 28.82 MB | ✓ | ✓
-[tacred](doc/tacred) | TAC Relation Extraction Dataset | 62.08 MB | ✓ | ✓
-[toronto-books](doc/toronto-books) | The Toronto BookCorpus, a large collection of books | 9.44 GB | ✓ | ✓
 
 
 ![plot of disk usage](disk-usage.svg)
