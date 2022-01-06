@@ -41,7 +41,7 @@ After reading the license (pay careful attention to the distribution
 restrictions), contact one of the nlp-corpora maintainers to be granted access
 to the set of BYU corpora:
 
-- Max Forbes --- mbforbes@cs.washington.edu
+- Suchin Gururangan --- sg01@cs.washington.edu
 
 ## License
 

@@ -1,7 +1,7 @@
 # nlp-corpora
 
 ![](https://img.shields.io/badge/docs-passing-brightgreen.svg?longCache=true&style=flat)
-![](https://img.shields.io/badge/built-1/5/22-blue.svg?longCache=true&style=flat)
+![](https://img.shields.io/badge/built-1/6/22-blue.svg?longCache=true&style=flat)
 
 **_A community-built high-quality repository of NLP corpora_**
 
