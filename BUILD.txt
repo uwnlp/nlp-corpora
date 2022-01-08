@@ -1,123 +1,20 @@
-Overall pass: False
+Overall pass: True
 
 dirname              desc                 size       group  owner  perms  dir clean  README?  R-desc  R-proc 
 ---                  ---                  ---        ---    ---    ---    ---        ---      ---     ---    
-byu-coca             BYU's Corpus of Con  6.39 GB    ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-byu-coha             BYU's Corpus of His  4.65 GB    ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-byu-now              BYU's "NOW" Corpus   90.25 GB   ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-deepbank             Syntactic + semanti  579.6 MB   ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-fanfiction           A large collection   175.2 GB   ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-gigaword-en-5        English Gigaword, F  34.49 GB   ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-google-surface-ngra  Google surface ngra  26.2 GB    ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-google-syntax-ngram  English Google Synt  341.23 GB  ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-gutenberg-en         All English books f  27.32 GB   ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-nyt-annotated        The New York Times   3.25 GB    ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-ontonotes            OntoNotes Release 5  932.92 MB  ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-penn-treebank-3      The Penn Treebank v  54.1 MB    ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-penn-treebank-revis  English News Text T  16.19 MB   ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-roc-stories          ROCStories: crowd-a  28.82 MB   ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-tacred               TAC Relation Extrac  62.08 MB   ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-toronto-books        The Toronto BookCor  9.44 GB    ✓      ✗      ✓      ✓          ✓        ✓       ✓      
-
-Detailed errors:
-byu-coca
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/byu-coca" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/byu-coca/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/byu-coca/original" has owner errors.
-
-byu-coha
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/byu-coha" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/byu-coha/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/byu-coha/original" has owner errors.
-
-byu-now
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/byu-now" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/byu-now/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/byu-now/original" has owner errors.
-
-deepbank
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/deepbank" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/deepbank/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/deepbank/original" has owner errors.
- - One or more file/dirs at/below "/projects/nlp-corpora/deepbank/processed" has owner errors.
-
-fanfiction
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/fanfiction" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/fanfiction/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/fanfiction/original" has owner errors.
- - One or more file/dirs at/below "/projects/nlp-corpora/fanfiction/processed" has owner errors.
-
-gigaword-en-5
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/gigaword-en-5" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/gigaword-en-5/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/gigaword-en-5/original" has owner errors.
- - One or more file/dirs at/below "/projects/nlp-corpora/gigaword-en-5/processed" has owner errors.
-
-google-surface-ngrams
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/google-surface-ngrams" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/google-surface-ngrams/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/google-surface-ngrams/original" has owner errors.
-
-google-syntax-ngrams
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/google-syntax-ngrams" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/google-syntax-ngrams/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/google-syntax-ngrams/original" has owner errors.
-
-gutenberg-en
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/gutenberg-en" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/gutenberg-en/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/gutenberg-en/original" has owner errors.
- - One or more file/dirs at/below "/projects/nlp-corpora/gutenberg-en/processed" has owner errors.
-
-nyt-annotated
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/nyt-annotated" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/nyt-annotated/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/nyt-annotated/original" has owner errors.
-
-ontonotes
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/ontonotes" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/ontonotes/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/ontonotes/original" has owner errors.
-
-penn-treebank-3
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/penn-treebank-3" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/penn-treebank-3/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/penn-treebank-3/original" has owner errors.
-
-penn-treebank-revised
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/penn-treebank-revised" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/penn-treebank-revised/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/penn-treebank-revised/original" has owner errors.
- - One or more file/dirs at/below "/projects/nlp-corpora/penn-treebank-revised/processed" has owner errors.
-
-roc-stories
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/roc-stories" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/roc-stories/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/roc-stories/original" has owner errors.
-
-tacred
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/tacred" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/tacred/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/tacred/original" has owner errors.
-
-toronto-books
---------------------------------------------------------------------------------
- - Path "/projects/nlp-corpora/toronto-books" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - Path "/projects/nlp-corpora/toronto-books/README.md" has owner "sg01", but needs to be one of "{'mbforbes'}"
- - One or more file/dirs at/below "/projects/nlp-corpora/toronto-books/original" has owner errors.
- - One or more file/dirs at/below "/projects/nlp-corpora/toronto-books/processed" has owner errors.
+byu-coca             BYU's Corpus of Con  6.39 GB    ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+byu-coha             BYU's Corpus of His  4.65 GB    ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+byu-now              BYU's "NOW" Corpus   90.25 GB   ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+deepbank             Syntactic + semanti  579.6 MB   ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+fanfiction           A large collection   175.2 GB   ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+gigaword-en-5        English Gigaword, F  34.49 GB   ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+google-surface-ngra  Google surface ngra  26.2 GB    ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+google-syntax-ngram  English Google Synt  341.23 GB  ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+gutenberg-en         All English books f  27.32 GB   ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+nyt-annotated        The New York Times   3.25 GB    ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+ontonotes            OntoNotes Release 5  932.92 MB  ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+penn-treebank-3      The Penn Treebank v  54.1 MB    ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+penn-treebank-revis  English News Text T  16.19 MB   ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+roc-stories          ROCStories: crowd-a  28.82 MB   ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+tacred               TAC Relation Extrac  62.08 MB   ✓      ✓      ✓      ✓          ✓        ✓       ✓      
+toronto-books        The Toronto BookCor  9.44 GB    ✓      ✓      ✓      ✓          ✓        ✓       ✓      
